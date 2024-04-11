@@ -1,13 +1,15 @@
 <!--
  * @Author: love-yuri yuri2078170658@gmail.com
  * @Date: 2024-04-11 21:24:37
- * @LastEditTime: 2024-04-11 22:03:29
+ * @LastEditTime: 2024-04-11 23:04:38
  * @Description: App 主页面
 -->
 
 <template>
   <div class="text-[40px]">
-    <div>yuri is yes!</div>
+    <Welcome />
   </div>
 </template>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Welcome from './views/welcome.vue';
+</script>

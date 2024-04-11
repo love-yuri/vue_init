@@ -1,7 +1,7 @@
 /*
  * @Author: love-yuri yuri2078170658@gmail.com
  * @Date: 2023-11-30 09:22:10
- * @LastEditTime: 2024-04-11 22:56:35
+ * @LastEditTime: 2024-04-11 23:12:41
  * @Description: main ts
  */
 import { createApp } from 'vue';
@@ -20,4 +20,4 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
 app.use(ElementPlus);
 app.mount('#app');
 
-console.log(import.meta.env.VITE_ENV_TEST);
+// console.log(import.meta.env.VITE_ENV_TEST);

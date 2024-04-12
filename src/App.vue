@@ -6,9 +6,7 @@
 -->
 
 <template>
-  <div class="text-[40px]">
-    <Welcome />
-  </div>
+  <Welcome />
 </template>
 <script setup lang="ts">
 import Welcome from './views/welcome.vue';

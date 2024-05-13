@@ -8,6 +8,7 @@
 
 interface ImportMetaEnv {
   readonly VITE_ENV_TEST: string;
+  readonly VITE_BASE_URL: string;
 }
 
 interface ImportMeta {

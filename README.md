@@ -9,6 +9,7 @@ npm install
 ```
 
 ### 运行
+> 如果需要实时执行taildwindcss 请执行 npx tailwindcss -i ./src/assets/main.css -o ./tailwindcss.css --watch
 
 ```sh
 npm run dev

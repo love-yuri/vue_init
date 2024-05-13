@@ -1,14 +1,14 @@
 /*
  * @Author: love-yuri yuri2078170658@gmail.com
  * @Date: 2023-11-30 09:22:10
- * @LastEditTime: 2024-04-11 23:12:41
+ * @LastEditTime: 2024-05-13 20:24:19
  * @Description: main ts
  */
 import { createApp } from 'vue';
-import './main.css';
 import ElementPlus from 'element-plus';
 import 'element-plus/dist/index.css';
 import App from './App.vue';
+import router from './router';
 
 const app = createApp(App);
 import * as ElementPlusIconsVue from '@element-plus/icons-vue';
@@ -18,6 +18,7 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
 }
 
 app.use(ElementPlus);
+app.use(router);
 app.mount('#app');
 
 // console.log(import.meta.env.VITE_ENV_TEST);
